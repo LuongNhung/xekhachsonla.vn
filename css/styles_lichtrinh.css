@@ -1,0 +1,113 @@
+
+.hero{
+  background-color: #fff;
+  background-image: url("../images/bg-3.png");
+  color: #ffebee; 
+  font-size: 1.5em;
+  background-repeat: no-repeat; 
+  background-size: cover;
+  padding-top: 150px;
+  padding-bottom: 50px;
+  border-radius: 30px;
+  height: 900px;
+}
+
+.hero-layer{
+  background-color: #0080003b;
+  padding-left: 60px;
+}
+
+.info {
+  background-color: green;
+  border-color: #4cae4c;
+  width: 500px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.info h1 {
+  padding-left: 30px;
+}
+
+.info ul, .info p {
+  padding-left: 60px;
+}
+
+.hero-phones{
+  padding-top: 50px; 
+  padding-bottom: 30px;
+  font-size: 2em; 
+  color: #ffebee;
+  width:800px;
+  padding-left: 10px;
+}
+
+.hero-phones a{
+  color: #ffebee;
+}
+
+.hero button {
+  padding-right: 30px;
+  padding-left: 30px;
+  border-radius: 30px;
+}
+
+@media screen and (max-width: 900px) {
+
+  .hero-phones{
+    font-size: 1.5em;
+  }
+  /*
+  .wrapper .carousel {
+    grid-auto-columns: calc((100% / 2) - 9px);
+  }
+  .hero-title-large{
+    font-size: 40px;
+  }
+  */
+}
+@media screen and (max-width: 600px) {
+.hero{ 
+  font-size: 0.8em;
+  padding-top: 50px;
+  padding-bottom: 150px;
+  height: 550px;
+}
+.hero-layer{
+  background-color: #0080003b;
+  padding-left: 30px;
+}
+
+.info {
+  background-color: green;
+  border-color: #4cae4c;
+  width: 255px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+
+.info h1 {
+  padding-left: 10px;
+  font-size: 1.5em;
+}
+
+.info ul, .info p {
+  padding-left: 20px;
+}
+
+.hero-phones{
+  padding-top: 50px; 
+  padding-bottom: 10px;
+  font-size: 1.5em; 
+  color: #ffebee;
+  width:350px;
+}
+
+.actions a {
+  font-size: 1.2em;
+  padding-bottom: 5px;
+  padding-top: 5px;
+}
+
+}

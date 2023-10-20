@@ -33,16 +33,38 @@ body {
     color:#fff;
 }
 
+/*
 a:focus, a:hover {
-  /*text-decoration: none; */
+  text-decoration: none; 
   color:black;
   background-color: white;
-}
+}*/
 
 
 .hero-phone{
   color:#fff;
   font-size: 50px;
+}
+
+
+.hero-phones a{
+  color: #ffebee;
+}
+
+.hero button {
+  padding-right: 30px;
+  padding-left: 30px;
+  border-radius: 30px;
+}
+
+.btn-group-lg>.btn, .btn-lg {
+  font-size: 2em;
+  margin-right:30px;
+}
+
+.actions {
+  position: absolute;
+  transform: translate(35%,600%);
 }
 
 .wrapper {
@@ -167,6 +189,15 @@ a:focus, a:hover {
   .hero-title-large{
     font-size: 30px;
   }
+  .btn-group-lg>.btn, .btn-lg {
+    font-size: 1.5em;
+    margin-right:15px;
+  }
+
+  .actions {
+    position: absolute;
+    transform: translate(25%,450%);
+  }
   .hero-phone{
     font-size:20px;
   }
@@ -187,6 +218,16 @@ a:focus, a:hover {
   .hero-title-large{
     font-size: 1.8rem;
   }
+
+   .btn-group-lg>.btn, .btn-lg {
+      font-size: 1em;
+      margin-right:10px;
+    }
+
+    .actions {
+      position: absolute;
+      transform: translate(25%,400%);
+    }
 
   .hero-phone{
     font-size: 1.8rem;

@@ -5,19 +5,20 @@
   border-radius: 0;
   border: 0;
 }
-/*
+
 .navbar-brand {
-  margin: 25px;
+  margin: 0px;
 }
-*/
+
 .navbar-brand h1 { /* Bus name */
   font-family: 'Lora', serif;
-  color: #557c3e;
+  color: #3f5ca7;
+  border-color: #243665;
   font-size: 2.5em;
   text-transform: uppercase;
   font-weight: bold;
   text-shadow: 1px 1px 1px #222;
-  line-height: .75;
+  /*line-height: .75;*/
 }
 .navbar-brand a:hover, .navbar-brand a:focus {
   text-decoration: none;
@@ -29,7 +30,7 @@
 #nav-list a {
   color: black;
   text-align: center;
-  font-size: 1.5em;
+  font-size: 20px;
 }
 #nav-list a:hover {
   background: #E7E7E7;
@@ -39,7 +40,7 @@
 }
 
 .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
-  border: 1px solid #557c3e;
+  border: 1px solid  #3f5ca7 /*#557c3e*/;
 }
 .navbar-header button.navbar-toggle {
   clear: both;
@@ -53,39 +54,56 @@
   margin-top: 30px;
   padding-top: 35px;
   padding-bottom: 30px;
-  background-color: #557c3e/* #5cb85c*/;
-  line-height: 2.5;
+  background-color: #acacac/*#3f5ca7*/ /*#557c3e*//* #5cb85c*/;
+  color: black/*#fff*/;
+  line-height: 1.8;
   position:relative;
-  top:0px;
-  font-size: 1.4em; 
+  z-index:0;
 }
 
+/*
 .footer-phone{
   color:#E2E4D1;
 }
+*/
 /* END FOOTER */
 
-@media screen and (max-width: 900px) {
-  .navbar-brand h1 { /* Bus name */
-    font-size: 1.5em;
-  }
 
-  #nav-list a {
-    font-size: 1em;
-  }
-  .panel-footer{
-    font-size:1.2em;
-  }
+.fixed-btn{
+  position: fixed;
+  bottom: 1%;
+  right: 3%;
+  /*background: #0FACF3;
+  width: 180px;
+  height: 45px;
+  line-height: 45px;
+  text-align: center;
+  border-radius: 3px;
+  box-shadow: 4px 4px 4px #0a78aa;*/
+  cursor: pointer;
+  z-index: 1;
+}
+
+.fixed-btn img{
+	padding-bottom: 15px;
+}
+
+
+@media screen and (max-width: 900px) {
+	.navbar-brand h1 { /* Bus name */
+		font-size: 1.2em;
+	}
+	.panel-footer{
+		font-size:1.2em;
+	}
+
 
 }
 @media screen and (max-width: 600px) {
-   .navbar-brand h1 { /* Bus name */
-      font-size: 1.5em;
-    }
-    #nav-list a {
-      font-size: 1em;
-    }
-    .panel-footer{
-      font-size:0.8em;
-    }
+	.navbar-brand h1 { /* Bus name */
+		font-size: 1.5em;
+	}
+	.panel-footer{
+		font-size:0.8em;
+	}
 }

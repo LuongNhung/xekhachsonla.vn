@@ -80,7 +80,7 @@ ul li{
   background-repeat: no-repeat; 
   background-size: cover;
   height:500px;
-  border-radis: 0px;  
+  border-radius: 0px;  
   text-align: center;
 }
 
@@ -301,6 +301,10 @@ ul li{
 
 
 @media screen and (max-width: 900px) {
+	.hero{
+		background-image: url("../images/bg_900.jpg");
+	}
+
 	body{
 		font-size: 16px;
 	}
@@ -314,7 +318,10 @@ ul li{
 
 }
 @media screen and (max-width: 600px) {
-	
+	.hero{
+		background-image: url("../images/bg_600.jpg");
+	}
+
 	.text-booking-button{
 		width:180px;
 	}
@@ -330,8 +337,6 @@ ul li{
 	.hero-phone{
 		font-size:30px;
 	}
-
-
 
 	.highlight{
 		height:380px;

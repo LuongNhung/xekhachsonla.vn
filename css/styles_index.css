@@ -319,7 +319,7 @@ ul li{
 }
 @media screen and (max-width: 600px) {
 	.hero{
-		background-image: url("../images/bg_600.jpg");
+		background-image: url("../images/bg_400.jpg");
 	}
 
 	.text-booking-button{

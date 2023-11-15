@@ -74,7 +74,7 @@ ul li{
 }
 
 .hero{
-  background-image: url("../images/bg.jpg");
+  background-image: url("../images/bg3_1024.jpg");
   background-color: #074f57;
   color: white; 
   background-repeat: no-repeat; 
@@ -94,10 +94,14 @@ ul li{
     color:#fff;
     padding-bottom: 5px;
 }
-
+.hero-title-medium{
+    font-size: 30px;
+    color:#fff;
+    padding-bottom: 0px;
+}
 .hero-phone{
   color:#fff;
-  font-size: 50px;
+  font-size: 30px;
 
 }
 .hero .booking-button {
@@ -302,7 +306,7 @@ ul li{
 
 @media screen and (max-width: 900px) {
 	.hero{
-		background-image: url("../images/bg_900.jpg");
+		background-image: url("../images/bg3_900.jpg");
 	}
 
 	body{
@@ -319,7 +323,7 @@ ul li{
 }
 @media screen and (max-width: 600px) {
 	.hero{
-		background-image: url("../images/bg_400.jpg");
+		background-image: url("../images/bg3_400.jpg");
 	}
 
 	.text-booking-button{
@@ -331,11 +335,15 @@ ul li{
 	}
 
 	.hero-title-large{
-		font-size: 30px;
+		font-size: 25px;
+	}
+
+	.hero-title-medium{
+		font-size: 20px;
 	}
 
 	.hero-phone{
-		font-size:30px;
+		font-size:20px;
 	}
 
 	.highlight{

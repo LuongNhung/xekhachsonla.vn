@@ -70,7 +70,7 @@ ul li{
 /*Section ids*/
 
 #highlight, #time, #journey, #promotion, #about, #info-journey, #QA {
-	padding: 20px;
+	padding: 10px;
 }
 
 .hero{
@@ -85,8 +85,9 @@ ul li{
 }
 
 .info {
-  padding: 30px 0px 30px 0px;
+  padding: 50px 0px 20px 0px;
   background-color: #0b290c96 /*#062907cc*/;
+  height:500px;
 }
 
 .hero-title-large{
@@ -105,10 +106,13 @@ ul li{
 
 }
 .hero .booking-button {
-  padding-top: 25px;
+  padding-top: 15px;
   font-size: 24px;
 }
 
+.col-sm-4.highlight{
+	padding-top: 15px ;
+}
 
 .highlight{
 	/*border-color: #f6f6f6;*/
@@ -126,7 +130,7 @@ ul li{
   	vertical-align: middle;
 	box-sizing: border-box;
 	border-color: #E0CDCD;
-	padding-top: 30px;
+	padding-top: 15px;
 	border-width: 2px;
 	border-style: solid;
 	height: 350px;
@@ -195,12 +199,12 @@ ul li{
 
 
 .info-journey{
-	padding-top: 20px;
-	padding-bottom: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
 }
 
 .info-journey .booking-button{
-	padding-top: 20px;
+	padding-top: 10px;
 }
 
 .reasons-manhcuong{
@@ -319,7 +323,9 @@ ul li{
 	.text-booking-button{
 		width:150px;
 	}
-
+	.info {
+		padding: 20px 0px 20px 0px;
+	}
 }
 @media screen and (max-width: 600px) {
 	.hero{
@@ -331,6 +337,10 @@ ul li{
 	}
 
 	.hero{
+		height: 450px;
+	}
+	.info{
+		padding: 20px 0px 20px 0px;
 		height: 450px;
 	}
 

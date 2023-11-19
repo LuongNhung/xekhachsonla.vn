@@ -109,7 +109,13 @@ ul li{
 }
 
 .col-sm-4.highlight{
-	padding-top: 15px ;
+	padding: 15px;
+}
+.booking-button.to-show{
+	/* visibility: hidden; */
+	padding: 0px;
+	margin: 5px;
+
 }
 
 .highlight{
@@ -118,7 +124,7 @@ ul li{
 	padding-bottom: 50px;
    /* background-color: #FFFFFF;*/
     /*border-color: #E0CDCD;*/
-    height:400px;
+    height:320px;
 }
 
 .highlight-frame{
@@ -131,7 +137,7 @@ ul li{
 	padding-top: 15px;
 	border-width: 2px;
 	border-style: solid;
-	height: 350px;
+	height: 280px;
 	border-radius: 10px 10px 10px 10px;
 }
 
@@ -194,7 +200,6 @@ ul li{
 	object-fit: cover;
 
 }
-
 
 .info-journey{
 	padding-top: 10px;
@@ -374,6 +379,15 @@ ul li{
 		flex: 100%;
 		max-width: 80%;
 	}
+	.highlight{
+		height: 260px;
+	}
+	.highlight-frame{
+		height: 230px;
+	}
+	.highlight-text{
+		height:120px;
+	}
 }
 
 @media screen and (max-width: 600px) {
@@ -406,10 +420,10 @@ ul li{
 		height: 250px;
 	}
 	.highlight{
-		height: 350px;
+		height: 250px;
 	}
 	.highlight-frame{
-		height: 320px;
+		height: 220px;
 	}
 	.highlight-text{
 		height:120px;

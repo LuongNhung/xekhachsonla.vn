@@ -52,7 +52,7 @@ ul li{
 }
 
 .title{
-	font-size: 32px; 
+	font-size: 25px; 
 	text-align: center;
 	font-weight: 600;
 	text-transform: uppercase;
@@ -304,103 +304,145 @@ ul li{
   color: white;
 }
 
-
+/* testimonials */
+.review{
+	padding: 40px 0;
+	/* background: #f1f1f1; */
+	color: #434343;
+	text-align: center;
+}
+.review .inner{
+	max-width: 1200px;
+	margin: auto;
+	overflow: hidden;
+	padding: 0 20px;
+}
+.review .border{
+	width: 160px;
+	height: 5px;
+	background: #6ab04c;
+	margin: 26px auto;
+}
+.review .row{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.review .col{
+	flex: 33.33%;
+	max-width: 33.33%;
+	box-sizing: border-box;
+	padding: 15px;
+}
+.review .testimonial{
+	background: #fff;
+	padding: 30px;
+}
+.review .testimonial img{
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+}
+.review .name{
+	font-size: 20px;
+	text-transform: uppercase;
+	margin: 20px 0;
+}
+.review .stars{
+	color: #6ab04c;
+	margin-bottom: 20px;
+}
 
 @media screen and (max-width: 900px) {
 	.hero{
 		background-image: url("../images/bg3_900.jpg");
 	}
-
 	body{
 		font-size: 16px;
 	}
 	h3{
 		font-size: 20px;
 	}
-
 	.text-booking-button{
 		width:150px;
 	}
 	.info {
 		padding: 20px 0px 20px 0px;
 	}
+	/* testimonials */
+	.review .col{
+		flex: 100%;
+		max-width: 80%;
+	}
 }
+
 @media screen and (max-width: 600px) {
+	/* testimonials */
+	.review .col{
+		flex: 100%;
+		max-width: 100%;
+	}
 	.hero{
 		background-image: url("../images/bg3_400.webp");
+		height: 450px;
 	}
-
 	.text-booking-button{
 		width:180px;
-	}
-
-	.hero{
-		height: 450px;
 	}
 	.info{
 		padding: 20px 0px 20px 0px;
 		height: 450px;
 	}
-
 	.hero-title-large{
 		font-size: 25px;
 	}
-
 	.hero-title-medium{
 		font-size: 20px;
 	}
-
 	.hero-phone{
 		font-size:20px;
 	}
-
-	.highlight{
-		height:380px;
+	.promotion{
+		height: 250px;
 	}
-	.highligh-frame{
-		height: 280px;
+	.highlight{
+		height: 350px;
+	}
+	.highlight-frame{
+		height: 320px;
 	}
 	.highlight-text{
-		height:150px;
+		height:120px;
 	}
 	.reasons-manhcuong{
 		left:0px;
 	}
-
 	.reason-img img{
 		display: block;
 		margin-left: auto;
 		margin-right: auto;
 	}
-
 	.reason-text{
 		padding-top: 10px;
 		text-align: center;
 	}
-
 	.about-img{
 		height: 280px;
 	}
-
 	.about img{
 		height: 200px;
 	}
-
 	.text-about{
 		height: 750px;
 		/*padding-bottom: 50px;*/
 	}
-
 	.text-about-feedback{
 		height: 300px;
 		padding-bottom: 50px;
 	}
-
-
 	.about .title{
 		padding-bottom: 50px;
 	}
-
 	ul li {
 		margin-bottom: 30px;
 	}

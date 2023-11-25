@@ -342,20 +342,21 @@ ul li{
 .review .testimonial{
 	background: #fff;
 	padding: 30px;
+	border-radius: 10px;
 }
 .review .testimonial img{
-	width: 100px;
-	height: 100px;
+	width: 80px;
+	height: 80px;
 	border-radius: 50%;
 }
 .review .name{
 	font-size: 20px;
 	text-transform: uppercase;
-	margin: 20px 0;
+	margin: 15px 0;
 }
 .review .stars{
-	color: #6ab04c;
-	margin-bottom: 20px;
+	color: #09398b;
+	margin-bottom: 15px;
 }
 
 @media screen and (max-width: 900px) {
@@ -404,7 +405,7 @@ ul li{
 		width:180px;
 	}
 	.info{
-		padding: 20px 0px 20px 0px;
+		padding: 30px 0px 20px 0px;
 		height: 450px;
 	}
 	.hero-title-large{

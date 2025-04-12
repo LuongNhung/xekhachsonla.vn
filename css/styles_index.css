@@ -39,12 +39,16 @@ ul li{
   margin-top:20px;
 }
 
-
+.booking-button-fixed{
+	display: none;
+}
 .text-booking-button{
 	text-transform: uppercase;
 	width:250px;
-	background-color: #3f5ca7;
-	border-color: #243665;
+	/*background-color: #3f5ca7;*/
+	background-color: #ff0000;
+	/*border-color: #243665;*/
+	border-color: #ff0000;
 }
 
 .text-booking-button:hover{
@@ -392,6 +396,25 @@ ul li{
 }
 
 @media screen and (max-width: 600px) {
+
+	.booking-button-fixed{
+		display: block;
+        position: fixed;
+        bottom: 25px;
+        right: 35px;
+        padding: 12px 20px;
+        background-color: #007BFF;
+        color: white;
+        border: none;
+        border-radius: 25px;
+        box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        font-size: 16px;
+        cursor: pointer;
+	}
+	.text-booking-button{
+		width:300px;
+	}
+
 	/* testimonials */
 	.review .col{
 		flex: 100%;
@@ -401,9 +424,7 @@ ul li{
 		background-image: url("../images/bg3_400.webp");
 		height: 450px;
 	}
-	.text-booking-button{
-		width:180px;
-	}
+
 	.info{
 		padding: 30px 0px 20px 0px;
 		height: 450px;
